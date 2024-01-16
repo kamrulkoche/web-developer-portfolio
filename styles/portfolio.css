@@ -222,6 +222,7 @@ textarea {
 
     .skills-container,
     .resume-container,
+    .about-info-container,
     footer {
         flex-direction: column;
     }
@@ -230,7 +231,8 @@ textarea {
         padding: 20px;
     }
 
-    footer {
+    footer,
+    .about {
         padding: 10px;
     }
 
