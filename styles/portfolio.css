@@ -126,7 +126,7 @@ main section {
 }
 
 /* skills related styles */
-#what -i-do-description {
+#what-i-do-description {
     padding: 30px 150px;
 }
 
@@ -209,4 +209,21 @@ textarea {
     background-color: white;
     border: 0;
     width: 100%;
+}
+
+/*Responsive Style*/
+
+/*Mobile Devices*/
+.hide {
+    display: none;
+}
+
+@media screen and (max-width:576px) {
+    .skills-container {
+        flex-direction: column;
+    }
+
+    #what-i-do-description {
+        padding: 20px;
+    }
 }
